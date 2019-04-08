@@ -1,0 +1,7 @@
+.header {
+	background-image: url(/assets/images/header-bg.png);
+	background-repeat: no-repeat;
+	background-size: 50% 100%;
+	background-position: top right;
+	background-color: #222362;
+}

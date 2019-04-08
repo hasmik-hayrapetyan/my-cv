@@ -1,0 +1,12 @@
+.btn-linkedin {
+	color: #fff;
+	background-color: #0077b5;
+	border: 1px solid #0077b5;
+	border-radius: 25px;
+}
+.btn-linkedin:hover {
+	color: #0077b5;
+	background-color: #fff;
+	border: 1px solid #0077b5;
+	border-radius: 25px;
+}
