@@ -10,7 +10,7 @@ class About extends Component {
 					<div className="row align-items-center h-100 d-flex">
 						<div className="col-md-4">
 							<h1>
-								Hasmik <br />Hayrapetyan <i className="fa fa-car text-black" />
+								Hasmik <br />Hayrapetyan
 							</h1>
 							<AboutMe />
 							<LinkedinBtn />

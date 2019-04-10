@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
+import './SocIcons.css';
 
 class SocIcons extends Component {
 	render() {
 		return (
 			<div>
 				<a
-					href="https://www.linkedin.com/company/inovineteam/about/"
+					href="https://www.linkedin.com/in/hasmik-hayrapetyan-328829134/"
 					className="linkedin_hover d-inline-block"
 					target="_blank"
 				>
 					<span className="fa-stack fa-md">
-						<i className="fa fa-circle text-black fa-stack-2x" />
-						<i className="fa fa-linkedin fa-stack-1x fa-inverse" />
+  						<i className="fas fa-circle text-black fa-stack-2x"></i>
+  						<i className="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
 					</span>
 				</a>
 				<a
-					href="https://www.facebook.com/Inovine-402144417219520/"
+					href="https://www.facebook.com/kimsahasmik"
 					className="fb_hover d-inline-block"
 					target="_blank"
 				>
 					<span className="fa-stack fa-md">
-						<i className="fa fa-circle text-black fa-stack-2x" />
-						<i className="fa fa-facebook fa-stack-1x fa-inverse" />
+  						<i className="fas fa-circle text-black fa-stack-2x"></i>
+  						<i className="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
 					</span>
 				</a>
 			</div>

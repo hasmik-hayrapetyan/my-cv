@@ -14,7 +14,7 @@ var navBar = [
 class Navigation extends Component {
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-light">
+			<nav className="navbar navbar-expand-lg navbar-light pb-0">
 				<button
 					className="navbar-toggler ml-auto"
 					type="button"
