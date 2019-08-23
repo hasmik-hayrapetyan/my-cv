@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AboutMe from './AboutMe';
-import './About.css';
 import LinkedinBtn from '../../Buttons/LinkedinBtn';
+import UserInfo from '../../User/UserInfo';
 class About extends Component {
 	render() {
 		return (
@@ -10,9 +10,9 @@ class About extends Component {
 					<div className="row align-items-center h-100 d-flex">
 						<div className="col-md-4">
 							<h1>
-								Hasmik <br />Hayrapetyan
+								{UserInfo.userName} <br />{UserInfo.userSurName}
 							</h1>
-							<AboutMe />
+							<AboutMe userInfo={UserInfo} />
 							<LinkedinBtn />
 						</div>
 					</div>

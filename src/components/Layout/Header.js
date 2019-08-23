@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
 import Navigation from './Navigation';
-import './style/Header.css';
 
 
 class Header extends Component {

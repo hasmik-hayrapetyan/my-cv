@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './SocIcons.css';
 
 class SocIcons extends Component {
 	render() {

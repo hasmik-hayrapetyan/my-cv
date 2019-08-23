@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Education.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 class Education extends Component {

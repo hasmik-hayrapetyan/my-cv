@@ -1,0 +1,9 @@
+.f-s {
+	$parent: &;
+	&-18 {
+		font-size: 18px;
+	}
+	&-19 {
+		font-size: 19px;
+	}
+}
